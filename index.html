@@ -26,23 +26,16 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-            <!---
+            
                 <a-image
                     src="assets/asset.jpeg"
                     scale="1 1 1"
+                    position="0 5 0"
                     class="clickable"
                     rotation="-90 0 0"
                     gesture-handler
                 ></a-image>
-                !--->
-                <a-box position="0 0.5 0" material="color: lime;">
-                    <a-animation attribute = "rotation"
-                    dur="3000"
-                    to="360 360 0"
-                    repeat="indefinite"
-                    easing="linear">
-                    </a-animation>
-                ></a-box>
+             
             </a-marker>
 
             <a-entity camera></a-entity>
